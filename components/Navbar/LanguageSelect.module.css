@@ -1,0 +1,121 @@
+.main {
+  position: relative;
+}
+.select {
+  outline: none;
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px 8px 12px;
+  gap: 5px 10px;
+  font-size: 15px;
+  color: var(--gray-9);
+  border-radius: 5px;
+  border: 1px solid var(--gray-4);
+  font-weight: 600;
+  position: relative;
+  width: 160px;
+  cursor: pointer;
+}
+.content, .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.arrows {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background-color: transparent;
+}
+.arrows::after,
+.arrows::before {
+  --size: 6px;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.arrows::before {
+  border-left: var(--size) solid transparent ;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid var(--gray-4);
+  top: 40%;
+}
+.arrows::after {
+  border-left: var(--size) solid transparent ;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid var(--gray-4);
+  top: 60%;
+}
+.list {
+  position: absolute;
+  width: 160px;
+  top: calc(100% + 5px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 1px solid var(--gray-4);
+  z-index: 10;
+  background-color: white;
+}
+.item {
+  padding: 10px;
+  cursor: pointer;
+}
+.item:hover {
+  background-color: var(--gray-3);
+}
+
+@media only screen and (min-width: 2150px) {
+  .select {
+    width: 180px;
+    font-size: 18px;
+  }
+  .list {
+    width: 180px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .select {
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    width: 150px;
+  }
+  .arrows {
+    width: 16px;
+  }
+  .arrows::before {
+    top: 38%;
+  }
+  .arrows::after {
+    top: 62%;
+  }
+  .list {
+    width: 150px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .select {
+    font-size: 12px;
+    width: 130px;
+    padding: 7px 6px 7px 6px;
+  }
+  .arrows {
+    width: 10px;
+  }
+  .list {
+    width: 130px;
+    font-size: 12px;
+  }
+}

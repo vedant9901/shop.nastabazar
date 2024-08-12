@@ -1,0 +1,503 @@
+{
+  "homePage": {
+    "slides": [
+      {
+        "_key": "1",
+        "coverImage": "/images/maingbanner.jpg",
+        "mainText": {
+          "en": "Discover Our Latest Collection",
+          "fr": "Découvrez notre dernière collection",
+          "ar": "اكتشف مجموعتنا الجديدة"
+        },
+        "secondaryText": {
+          "en": "Explore the best deals and exclusive offers.",
+          "fr": "Découvrez les meilleures offres et offres exclusives.",
+          "ar": "استكشف أفضل العروض والعروض الحصرية."
+        },
+        "buttonText": {
+          "en": "Shop Now",
+          "fr": "Achetez Maintenant",
+          "ar": "تسوق الآن"
+        },
+        "withButton": true
+      }
+    ],
+    "introSection": [
+      {
+        "_key": "1",
+        "introMainText": {
+          "en": "Fast Delivery",
+          "fr": "Livraison Rapide",
+          "ar": "توصيل سريع"
+        },
+        "introSecondaryText": {
+          "en": "Get your orders delivered swiftly to your doorstep.",
+          "fr": "Recevez vos commandes rapidement chez vous.",
+          "ar": "احصل على طلباتك بسرعة إلى باب منزلك."
+        }
+      },
+      {
+        "_key": "2",
+        "introMainText": {
+          "en": "Easy Returns",
+          "fr": "Retours Faciles",
+          "ar": "إرجاع سهل"
+        },
+        "introSecondaryText": {
+          "en": "Hassle-free returns if you’re not satisfied.",
+          "fr": "Retours sans tracas si vous n'êtes pas satisfait.",
+          "ar": "إرجاع بدون عناء إذا لم تكن راضيًا."
+        }
+      },
+      {
+        "_key": "3",
+        "introMainText": {
+          "en": "Secure Payments",
+          "fr": "Paiements Sécurisés",
+          "ar": "مدفوعات آمنة"
+        },
+        "introSecondaryText": {
+          "en": "Your transactions are safe with us.",
+          "fr": "Vos transactions sont en sécurité avec nous.",
+          "ar": "معاملاتك آمنة معنا."
+        }
+      }
+    ],
+    "recentProducts": [
+      {
+        "_id": "1",
+        "slug": "gruh-udhyog",
+        "name": "Gruh Udyog",
+        "models": [
+          {
+            "price": 120,
+            "size": "10",
+            "quantity": 15
+          },
+          {
+            "price": 125,
+            "size": "11",
+            "quantity": 10
+          }
+        ],
+        "short_description": "we offers a wide range of delectable and traditional Indian snacks, including crispy khakhra, flavorful namkeen, roasted and fried dry fruits, fresh bakery products, aromatic mukhvas, tangy achar, and more. Discover authentic tastes and high-quality products crafted with care.",
+
+        "images": ["/images/namkeen.webp", "/images/kahkhra-1.webp", "/images/kahkhra-2.webp"]
+      },
+      {
+        "_id": "2",
+        "slug": "gourmet",
+        "name": "Gourmet",
+        "models": [
+          {
+            "price": 120,
+            "size": "10",
+            "quantity": 15
+          },
+          {
+            "price": 125,
+            "size": "11",
+            "quantity": 10
+          }
+        ],
+        "short_description": "we delivers a diverse selection of premium culinary products, including crispy chips, savory dips, flavorful sauces, gourmet food ingredients, high-quality dry fruits, healthy food options, convenient frozen food, and fresh dairy products. Elevate your dining experience with our carefully curated and top-notch offerings.",
+
+        "images": ["/images/gourmet-1.jpg", "/images/gourmet-2.jpg"]
+      },
+      {
+        "_id": "3",
+        "slug": "chocolates",
+        "name": "Chocolates",
+        "models": [
+          {
+            "price": 120,
+            "size": "10",
+            "quantity": 15
+          },
+          {
+            "price": 125,
+            "size": "11",
+            "quantity": 10
+          }
+        ],
+        "short_description": "we offers a delightful assortment of sweet treats, including rich chocolate bars, indulgent chocolate balls, colorful candies, fun lollipops, and more. Satisfy your sweet tooth with our premium and varied chocolate selections.",
+
+        "images": ["/images/chocolates-1.jpg", "/images/chocolates-2.jpg"]
+      },
+      {
+        "_id": "4",
+        "slug": "beverages",
+        "name": "Beverages",
+        "models": [
+          {
+            "price": 120,
+            "size": "10",
+            "quantity": 15
+          },
+          {
+            "price": 125,
+            "size": "11",
+            "quantity": 10
+          }
+        ],
+        "short_description": "Beverages features a diverse range of refreshing drinks, from natural juices and fizzy soft drinks to energizing energy drinks, nutritious protein shakes, and vegan-friendly options. Discover the perfect drink to suit every taste and occasion.",
+
+        "images": ["/images/Beverages-1.jpg", "/images/Beverages-2.jpg"]
+      },
+      {
+        "_id": "5",
+        "slug": "ice-creams",
+        "name": "Ice creams",
+        "models": [
+          {
+            "price": 120,
+            "size": "10",
+            "quantity": 15
+          },
+          {
+            "price": 125,
+            "size": "11",
+            "quantity": 10
+          }
+        ],
+        "short_description": "Ice Cream offers a delectable selection of creamy frozen treats, including classic flavors, gourmet blends, and indulgent sundaes. Enjoy a scoop of your favorite ice cream for a delightful and refreshing dessert experience.",
+
+        "images": ["/images/ice-cream-1.webp", "/images/mukhwas-2.webp"]
+      }
+    ],
+    "categories": [
+      {
+        "_key": "1",
+        "interfaceCategoryImage": "/images/SAVOURY.png",
+        "interfaceCategoryName": "Savoury"
+      },
+      {
+        "_key": "2",
+        "interfaceCategoryImage": "/images/namkeen-icon.webp",
+        "interfaceCategoryName": "Namkeens"
+      },
+      {
+        "_key": "3",
+        "interfaceCategoryImage": "/images/Khakhra.png",
+        "interfaceCategoryName": "Khakhra"
+      },
+      {
+        "_key": "4",
+        "interfaceCategoryImage": "/images/mithai-icon.webp",
+        "interfaceCategoryName": "Mithai"
+      },
+      {
+        "_key": "2",
+        "interfaceCategoryImage": "/images/Bakery.png",
+        "interfaceCategoryName": "Bakery"
+      },
+      {
+        "_key": "3",
+        "interfaceCategoryImage": "/images/Beverages.png",
+        "interfaceCategoryName": "Beverages"
+      },
+
+      {
+        "_key": "6",
+        "interfaceCategoryImage": "/images/mukhwas-icon.png",
+        "interfaceCategoryName": "Mukhwas"
+      }
+    ],
+    "categoriesData": [
+      {
+        "1": [
+          {
+            "id": "savoury-1",
+            "name": "Crispy Potato Chips",
+            "image": "/images/chips-1.webp",
+            "price": "20.99",
+            "short_description": "Crunchy and salted potato chips made from the finest potatoes."
+          },
+          {
+            "id": "savoury-2",
+            "name": "Spicy Masala Peanuts",
+            "image": "/images/peanuts-1.webp",
+            "price": "15.49",
+            "short_description": "Roasted peanuts seasoned with a blend of aromatic spices."
+          },
+          {
+            "id": "savoury-3",
+            "name": "Cheese Nachos",
+            "image": "/images/nachos-1.webp",
+            "price": "25.00",
+            "short_description": "Crispy nachos with a cheesy twist, perfect for dipping."
+          },
+          {
+            "id": "savoury-4",
+            "name": "Tangy Tomato Corn Puffs",
+            "image": "/images/corn-puffs-1.webp",
+            "price": "18.75",
+            "short_description": "Light and airy corn puffs with a tangy tomato flavor."
+          },
+          {
+            "id": "savoury-5",
+            "name": "Chilli Garlic Potato Sticks",
+            "image": "/images/potato-sticks-1.webp",
+            "price": "22.49",
+            "short_description": "Crispy potato sticks with a bold chilli garlic seasoning."
+          }
+        ],
+        "2": [
+          {
+            "id": "namkeen-1",
+            "name": "Classic Sev",
+            "image": "/images/sev-1.webp",
+            "price": "12.99",
+            "short_description": "Traditional Indian sev, perfect for snacking or as a topping."
+          },
+          {
+            "id": "namkeen-2",
+            "name": "Spicy Bhel Mix",
+            "image": "/images/bhel-1.webp",
+            "price": "16.50",
+            "short_description": "A spicy and tangy bhel mix, full of flavor and crunch."
+          },
+          {
+            "id": "namkeen-3",
+            "name": "Moong Dal Namkeen",
+            "image": "/images/moong-dal-1.webp",
+            "price": "14.00",
+            "short_description": "Crispy fried moong dal seasoned with salt and spices."
+          },
+          {
+            "id": "namkeen-4",
+            "name": "Roasted Chana",
+            "image": "/images/chana-1.webp",
+            "price": "13.25",
+            "short_description": "Healthy and crunchy roasted chana, lightly salted."
+          },
+          {
+            "id": "namkeen-5",
+            "name": "Garlic Makhana",
+            "image": "/images/makhana-1.webp",
+            "price": "19.99",
+            "short_description": "Puffed lotus seeds with a garlic twist, ideal for guilt-free snacking."
+          }
+        ],
+        "3": [
+          {
+            "id": "khakhra-1",
+            "name": "Plain Khakhra",
+            "image": "/images/plain-khakhra-1.webp",
+            "price": "10.99",
+            "short_description": "Crispy and crunchy plain khakhra, a traditional Gujarati snack."
+          },
+          {
+            "id": "khakhra-2",
+            "name": "Jeera Khakhra",
+            "image": "/images/jeera-khakhra-1.webp",
+            "price": "12.50",
+            "short_description": "Khakhra infused with cumin seeds for a burst of flavor."
+          },
+          {
+            "id": "khakhra-3",
+            "name": "Methi Khakhra",
+            "image": "/images/methi-khakhra-1.webp",
+            "price": "13.00",
+            "short_description": "Healthy khakhra made with fenugreek leaves for added taste."
+          },
+          {
+            "id": "khakhra-4",
+            "name": "Masala Khakhra",
+            "image": "/images/masala-khakhra-1.webp",
+            "price": "14.75",
+            "short_description": "Spicy and flavorful khakhra perfect for a quick snack."
+          },
+          {
+            "id": "khakhra-5",
+            "name": "Garlic Khakhra",
+            "image": "/images/garlic-khakhra-1.webp",
+            "price": "15.49",
+            "short_description": "Khakhra with a hint of garlic, ideal for garlic lovers."
+          }
+        ],
+        "4": [
+          {
+            "id": "mithai-1",
+            "name": "Gulab Jamun",
+            "image": "/images/gulab-jamun-1.webp",
+            "price": "20.99",
+            "short_description": "Soft and syrupy Indian sweets made from khoya."
+          },
+          {
+            "id": "mithai-2",
+            "name": "Rasgulla",
+            "image": "/images/rasgulla-1.webp",
+            "price": "18.50",
+            "short_description": "Spongy and juicy rasgulla made from chhena."
+          },
+          {
+            "id": "mithai-3",
+            "name": "Kaju Katli",
+            "image": "/images/kaju-katli-1.webp",
+            "price": "25.00",
+            "short_description": "Rich and smooth kaju katli made from cashew nuts."
+          },
+          {
+            "id": "mithai-4",
+            "name": "Motichoor Ladoo",
+            "image": "/images/motichoor-ladoo-1.webp",
+            "price": "22.99",
+            "short_description": "Delicious motichoor ladoo with the perfect sweetness."
+          },
+          {
+            "id": "mithai-5",
+            "name": "Soan Papdi",
+            "image": "/images/soan-papdi-1.webp",
+            "price": "19.99",
+            "short_description": "Flaky and sweet soan papdi with a hint of cardamom."
+          }
+        ],
+        "5": [
+          {
+            "id": "bakery-1",
+            "name": "Butter Cookies",
+            "image": "/images/butter-cookies-1.webp",
+            "price": "15.99",
+            "short_description": "Rich and buttery cookies, perfect with tea or coffee."
+          },
+          {
+            "id": "bakery-2",
+            "name": "Chocolate Chip Biscuits",
+            "image": "/images/chocolate-chip-biscuits-1.webp",
+            "price": "17.50",
+            "short_description": "Crispy biscuits loaded with chocolate chips for a sweet treat."
+          },
+          {
+            "id": "bakery-3",
+            "name": "Khari Puff",
+            "image": "/images/khari-puff-1.webp",
+            "price": "12.00",
+            "short_description": "Flaky and crispy khari puff, ideal for snacking."
+          },
+          {
+            "id": "bakery-4",
+            "name": "Fruit Cake",
+            "image": "/images/fruit-cake-1.webp",
+            "price": "25.99",
+            "short_description": "Moist and flavorful fruit cake, a festive favorite."
+          },
+          {
+            "id": "bakery-5",
+            "name": "Rusk Toast",
+            "image": "/images/rusk-toast-1.webp",
+            "price": "10.99",
+            "short_description": "Crispy and crunchy rusk toast, great for dipping in tea."
+          }
+        ],
+        "6": [
+          {
+            "id": "beverages-1",
+            "name": "Mango Juice",
+            "image": "/images/mango-juice-1.webp",
+            "price": "12.99",
+            "short_description": "Refreshing mango juice made from ripe mangoes."
+          },
+          {
+            "id": "beverages-2",
+            "name": "Orange Soda",
+            "image": "/images/orange-soda-1.webp",
+            "price": "15.50",
+            "short_description": "Fizzy and tangy orange soda, perfect for hot days."
+          },
+          {
+            "id": "beverages-3",
+            "name": "Energy Drink",
+            "image": "/images/energy-drink-1.webp",
+            "price": "20.00",
+            "short_description": "Boost your energy with our invigorating energy drink."
+          },
+          {
+            "id": "beverages-4",
+            "name": "Chocolate Protein Shake",
+            "image": "/images/protein-shake-1.webp",
+            "price": "22.99",
+            "short_description": "Rich and creamy chocolate protein shake for a healthy snack."
+          },
+          {
+            "id": "beverages-5",
+            "name": "Almond Milk",
+            "image": "/images/almond-milk-1.webp",
+            "price": "18.99",
+            "short_description": "Healthy and dairy-free almond milk, great for lactose-intolerant."
+          }
+        ],
+        "7": [
+          {
+            "id": "mukhwas-1",
+            "name": "Mint Mukhwas",
+            "image": "/images/mint-mukhwas-1.webp",
+            "price": "8.99",
+            "short_description": "Refreshing mint-flavored mukhwas for a fresh breath."
+          },
+          {
+            "id": "mukhwas-2",
+            "name": "Fennel Mukhwas",
+            "image": "/images/fennel-mukhwas-1.webp",
+            "price": "10.50",
+            "short_description": "Sweet fennel mukhwas, perfect after a meal."
+          },
+          {
+            "id": "mukhwas-3",
+            "name": "Rose Petal Mukhwas",
+            "image": "/images/rose-petal-mukhwas-1.webp",
+            "price": "12.00",
+            "short_description": "Aromatic rose petal mukhwas with a sweet taste."
+          },
+          {
+            "id": "mukhwas-4",
+            "name": "Sugar-Coated Saunf",
+            "image": "/images/sugar-coated-saunf-1.webp",
+            "price": "9.99",
+            "short_description": "Sweet and crunchy sugar-coated fennel seeds."
+          },
+          {
+            "id": "mukhwas-5",
+            "name": "Mixed Mukhwas",
+            "image": "/images/mixed-mukhwas-1.webp",
+            "price": "11.49",
+            "short_description": "A blend of various mukhwas for a unique taste."
+          }
+        ]
+      }
+    ],
+    "translations": {
+      "featuredCategories": {
+        "en": "Featured Categories",
+        "fr": "Catégories Vedettes",
+        "ar": "الفئات المتميزة"
+      }
+    },
+    "aboutSectionText": {
+      "1": "Nasta Bazar, Ahmedabad's first-of-its-kind snacking store, created for those who relish tasty bites at any time of the day. We offer a diverse range of traditional Indian snacks such as Khakhra, Ganthiya, Sev, Chavana, Bhakharvadi, Wafers, Roasted snacks, and Mukhvas, alongside gourmet delights like Chips, Dips, Sauces, and premium Dry Fruits. But that’s just the beginning.",
+      "2": "At Nasta Bazar, we go beyond the ordinary, bringing you an assortment of Dairy products like Butter, Cheese, and Paneer, as well as a variety of Healthy and Diet foods for the health-conscious. Our Bakery section is stocked with freshly baked cookies, biscuits, Khari, and toast, perfect for any time snacking. And for those with a sweet tooth, our collection of Chocolates and Ice creams won’t disappoint.",
+      "3": "To complete your snacking experience, we also offer a curated selection of Indian and international Beverages. Whether you’re a kid, an adult, or a veteran snack lover, Nasta Bazar has something to satisfy every craving. Visit us today and explore a world of flavors where quality meets variety, making snacking a delightful experience any time of the day or night."
+    },
+    "storeList": [
+      {
+        "_key": "1",
+        "url":"../../public/Images/coming-soon.jpg",
+        "storeName": "Nasta Bazar Shela",
+        "storeLocationAddress": "27-28-29, Aryan Avishkar, Nr. Sky City,Club O7 Road, Shela, Ahmedabad.",
+        "storeContactNo": "99786 23707"
+      },
+      {
+        "_key": "2",
+        "storeName": "Nasta Bazar Bodakdev",
+        "storeLocationAddress": "GF, Mithila Apartment, Nr. HP Petrol Pump,Judges Bungalow - Satyagrah Road,Bodakdev, Ahmedabad",
+        "storeContactNo": ""
+      },
+      {
+        "_key": "3",
+        "storeName": "Comming Soon . . ",
+        "storeLocationAddress": "Many more outlets comming soon ",
+        "storeContactNo": ""
+      }
+    ]
+  }
+}

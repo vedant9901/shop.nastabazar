@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Dosis';
+  src: url(../fonts/Dosis/Dosis-Bold.ttf);
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dosis';
+  src: url(../fonts/Dosis/Dosis-SemiBold.ttf);
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dosis';
+  src: url(../fonts/Dosis/Dosis-Medium.ttf);
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dosis';
+  src: url(../fonts/Dosis/Dosis-Regular.ttf);
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dosis';
+  src: url(../fonts/Dosis/Dosis-Light.ttf);
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  src: url(../fonts/IBM-Plex-Sans-Arabic/IBMPlexSansArabic-Bold.ttf);
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  src: url(../fonts/IBM-Plex-Sans-Arabic/IBMPlexSansArabic-Medium.ttf);
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  src: url(../fonts/IBM-Plex-Sans-Arabic/IBMPlexSansArabic-Regular.ttf);
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans Arabic';
+  src: url(../fonts/IBM-Plex-Sans-Arabic/IBMPlexSansArabic-Light.ttf);
+  font-weight: 300;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', 'IBM Plex Sans Arabic', sans-serif;
+}
+:root {
+  --gray-0: #fafafa;
+  --gray-1: #f5f5f5;
+  --gray-2: #ececec;
+  --gray-3: #dedede;
+  --gray-4: #d4d4d4;
+  --gray-5: #999999;
+  --gray-6: #777777;
+  --gray-7: #555555;
+  --gray-8: #333333;
+  --gray-9: #111111; 
+  --nav-height: 90px;
+  --footer-height: 160px;
+  --sidebar-width: 400px;
+  --cart-menu-with: 400px;
+}
+a {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+button {
+  font-family: inherit;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  z-index: 999;
+}
+::-webkit-scrollbar-track {
+  background: var(--gray-0); 
+}
+ ::-webkit-scrollbar-thumb {
+  background: var(--gray-5); 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gray-6); 
+} 
+
+/* image gallery */
+.image-gallery-thumbnail {
+  --border-width: 2px;
+  cursor: pointer;
+  border: var(--border-width) solid transparent !important;
+}
+
+/* showcase container on pages */
+.showcase-with-bg-image {
+  height: 280px;
+  position: relative;
+}
+.showcase-with-bg-image h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max-content;
+  height: auto;
+  transform: translate(-50%, -50%);
+} 
+
+@media (hover: hover) and (pointer: fine) {
+  .image-gallery-thumbnail:hover {
+      outline: none;
+      border: var(--border-width) solid var(--gray-5) !important;
+  }
+}
+.image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
+  border: var(--border-width) solid var(--gray-7) !important;
+}
+
+.image-gallery-icon {
+  color: var(--gray-2) !important;
+}
+.image-gallery-icon:hover {
+  color: var(--gray-6) !important;
+}
+.image-gallery-right-nav {
+  padding-right: 30px !important;
+}
+.image-gallery-left-nav {
+  padding-left: 30px !important;
+}
+.image-gallery-left-nav svg, .image-gallery-right-nav svg {
+  width: 20px !important;
+  height: 40px !important;
+}
+.image-gallery-fullscreen-button {
+  padding: 10px 30px 10px 10px !important;
+}
+.image-gallery-fullscreen-button svg {
+  width: 20px !important;
+  height: 20px !important;
+  opacity: .8 !important;
+  border: none !important;
+  outline: none !important;
+}
+
+@media only screen and (min-width: 2150px) {
+  :root {
+    --nav-height: 110px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  :root {
+    --footer-height: 410px;
+  }
+  .showcase-with-bg-image h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .showcase-with-bg-image h2 {
+    font-size: 24px;
+  }
+}
